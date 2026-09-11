@@ -1,0 +1,21 @@
+{
+  "name": "c2pa-kyc-signing",
+  "version": "1.0.0",
+  "description": "C2PA content provenance signing service for KYC biometric capture",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "certs": "./scripts/generate-certs.sh"
+  },
+  "keywords": ["c2pa", "content-provenance", "kyc", "biometric", "deepfake", "injection-attack"],
+  "author": "Akwunte Amali",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "c2pa-node": "^0.5.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

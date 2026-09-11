@@ -1,0 +1,35 @@
+# ── Secrets — never commit ───────────────────────────────────────────
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+certs/
+.env
+.env.*
+!.env.example
+
+# ── Node ─────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# ── Runtime output ───────────────────────────────────────────────────
+output/
+uploads/
+tmp/
+*.log
+
+# ── Images (allow only documentation assets) ─────────────────────────
+*.png
+*.jpg
+*.jpeg
+!docs/*.png
+!examples/*.png
+
+# ── OS / editor ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

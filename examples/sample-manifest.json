@@ -1,0 +1,42 @@
+{
+  "claim_generator": "SovereignPersona/1.0 Demo-Bank-KYC/1.0",
+  "format": "image/png",
+  "title": "KYC capture — Demo Bank",
+  "signature_info": {
+    "alg": "es256",
+    "issuer": "CN=CBN-CA-001 (Mock), O=Central Bank of Nigeria (Mock), C=NG"
+  },
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "when": "2026-08-28T23:34:47.000Z",
+            "softwareAgent": "SovereignPersona/1.0 (Demo Bank)",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"
+          }
+        ]
+      }
+    },
+    {
+      "label": "com.sovereign-persona.liveness",
+      "data": {
+        "score": 0.97,
+        "threshold": 0.85,
+        "passed": true,
+        "measured_at": "2026-08-28T23:34:47.000Z"
+      }
+    },
+    {
+      "label": "com.sovereign-persona.regulatory",
+      "data": {
+        "institution": "Demo Bank",
+        "regulatory_reference": "CBN PSD/DIR/PUB/001/2026",
+        "device_identifier": null,
+        "capture_context": "kyc_onboarding"
+      }
+    }
+  ]
+}
