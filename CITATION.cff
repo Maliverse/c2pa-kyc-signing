@@ -6,7 +6,7 @@ authors:
   - given-names: Akwunte
     family-names: Amali
     affiliation: "MIVA Open University"
-repository-code: "https://github.com/REPLACE_ME/c2pa-kyc-signing"
+repository-code: "https://github.com/Maliverse/c2pa-kyc-signing"
 abstract: >-
   A reference implementation of C2PA content provenance signing applied to KYC
   biometric capture. Images are signed with Es256 (ECDSA P-256) and the manifest
