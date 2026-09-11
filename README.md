@@ -6,7 +6,7 @@ manifest, so that a verifier can establish **where an image came from** rather t
 from pixels whether it looks authentic.
 
 Built as the Layer 2 reference implementation for an MSc research project on deepfake-resistant
-identity verification in Nigerian fintech.
+identity verification in Nigerian fintech. Applies C2PA content provenance to regulated financial KYC, a domain the standard does not currently address.
 
 ## Why provenance rather than detection
 
